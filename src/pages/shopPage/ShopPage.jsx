@@ -1,10 +1,10 @@
 import React from 'react';
 import imgDrug from '../../assets/drugs.jpg';
 import css from './Shop.module.css';
-
+import { fetchData } from '../../api/api.js';
 
 const ShopPage = () => {
-
+    fetchData();
   return (
       <div className={css.container}>
           <div className={css.shops}>

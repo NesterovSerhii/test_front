@@ -1,12 +1,12 @@
 import axios from 'axios';
 
 export const instance = axios.create({
-  baseURL: 'https://drugshopbackend.onrender.com/',
+  baseURL: 'https://test-back-kd6p.onrender.com',
 });
 
 export const fetchData = async () => {
   try {
-    const response = await instance.get('api/shops');
+    const response = await instance.get('/api/shops');
     console.log('data', response.data);
     return response.data;
   } catch (error) {
