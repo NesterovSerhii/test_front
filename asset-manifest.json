@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/test_front/static/css/main.6ab6442a.css",
-    "main.js": "/test_front/static/js/main.748af7bc.js",
-    "static/media/drugs.jpg": "/test_front/static/media/drugs.137fd20429766eecd0d0.jpg",
+    "main.css": "/test_front/static/css/main.9c00d12f.css",
+    "main.js": "/test_front/static/js/main.20b97afe.js",
     "index.html": "/test_front/index.html",
-    "main.6ab6442a.css.map": "/test_front/static/css/main.6ab6442a.css.map",
-    "main.748af7bc.js.map": "/test_front/static/js/main.748af7bc.js.map"
+    "main.9c00d12f.css.map": "/test_front/static/css/main.9c00d12f.css.map",
+    "main.20b97afe.js.map": "/test_front/static/js/main.20b97afe.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ab6442a.css",
-    "static/js/main.748af7bc.js"
+    "static/css/main.9c00d12f.css",
+    "static/js/main.20b97afe.js"
   ]
 }
