@@ -16,7 +16,7 @@ export const fetchData = async () => {
 
 export const sendOrder = async (order) => {
   try {
-    const response = await instance.post('/api/orders', order);
+    const response = await instance.post('/api/shops/submit-order', order);
     return response.data;
   } catch (error) {
     console.error('Error sending order:', error);

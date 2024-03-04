@@ -57,6 +57,12 @@ const CartPage = () => {
         phone: '',
         address: '',
       });
+
+      setCount({});
+
+      localStorage.removeItem('cartData');
+      localStorage.removeItem('cart');
+
     } catch (error) {
       console.error('Error submitting order:', error);
     }
